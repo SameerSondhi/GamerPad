@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css?family=Play");
+
+.game-card{
+  background: #0F2027; ;
+  margin-top: 20px;
+  height: 22rem;
+  box-shadow:
+  inset 0 -3em 3em rgba(0, 0, 0, 0.8),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.8);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+}
+
+.browse{
+   text-align: center;
+  font-family: Play;
+}
+
+.navbar{
+  background: #0F2027;  /* fallback for old browsers */
+  color: whitesmoke;
+  font-family: Play;
+}
+
+.main{
+  text-align: center;
+  font-family: Play;
+  height:100%;
+  width:100%;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.detail-card{
+  box-shadow:
+  inset 0 -3em 3em rgba(0, 0, 0, 0.4),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.4);
 }
