@@ -16,7 +16,7 @@
 
 
 ## General Information
-- I felt inspired to create a UI that could help users find and discover unreleased and highly anticipated video games for any platform. A lot of these games will soon become new releases, but I intend to regularly update the API parameters to ensure that users can be up to date with the latest titles. 
+- I felt inspired to create a UI that could help users find and discover unreleased and highly anticipated video games for any platform. A lot of these games will soon become new releases, but I intend to regularly update the API request to ensure that users can be up to date with the latest titles. 
 
 
 ## Technologies Used
